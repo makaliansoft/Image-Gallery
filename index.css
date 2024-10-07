@@ -1,0 +1,24 @@
+/*css added by devA*/
+ul {
+  display: flex;
+  background-color: antiquewhite;
+  text-align: center;
+  box-shadow: 1px 3px 4px gray;
+}
+li {
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
+li:hover {
+  background-color: black;
+  transition: 0.5s;
+  color: white;
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  li {
+    font-size: 1rem;
+    margin: 0;
+  }
+}
